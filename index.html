@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unir Códigos HTML</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/calendar.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-menu">
+                <a href="https://famores.com/wp-content/uploads/2024/04/Logo-Mothership.jpg">
+                    <img src="https://famores.com/wp-content/uploads/2024/04/Logo-Mothership.jpg" alt="Logo de Mothership">
+                </a>
+            </div>
+            <ul class="nav-buttons">
+                <li><button type="button" class="btn btn-primary light-purple"><i class="fas fa-bullhorn"></i> Crear Campaña</button></li>
+                <li><button type="button" class="btn btn-primary dark-purple"><i class="fab fa-google"></i> Opiniones de Google</button></li>
+                <li><button type="button" class="btn btn-primary yellow"><i class="fas fa-cog"></i> Configuración</button></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="miniCalendar">
+                    <div class="miniCalendar-status">
+                        <time class="miniCalendar-date" datetime="2021-06">Junio 2021</time>
+                        <div class="miniCalendar-navigation">
+                            <a class="button is-compact" href="#prevMonth" aria-label="Mes anterior">
+                                <i class="icon-chevronLeft" aria-hidden="true"></i>
+                            </a>
+                            <a class="button is-compact" href="#nextMonth" aria-label="Siguiente mes">
+                                <i class="icon-chevronRight" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="miniCalendar-header">
+                        <span class="miniCalendar-weekDay">D</span>
+                        <span class="miniCalendar-weekDay">L</span>
+                        <span class="miniCalendar-weekDay">M</span>
+                        <span class="miniCalendar-weekDay">M</span>
+                        <span class="miniCalendar-weekDay">J</span>
+                        <span class="miniCalendar-weekDay">V</span>
+                        <span class="miniCalendar-weekDay">S</span>
+                    </div>
+                    <div class="miniCalendar-month">
+                        <!-- Add days here as needed -->
+                    </div>
+                </div>
+                <div class="weekly-stats">
+                    <h3>Cantidad de publicaciones semanal</h3>
+                    <div class="stat">
+                        <i class="fab fa-instagram"></i>
+                        <div class="bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                        <span>5</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fab fa-facebook"></i>
+                        <div class="bar">
+                            <div class="progress" style="width: 40%;"></div>
+                        </div>
+                        <span>4</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="week">
+                    <h3>Semana 1</h3>
+                    <div class="post">
+                        <img src="image.png" alt="Post image">
+                        <div class="details">
+                            <i class="fab fa-instagram"></i>
+                            <h4>Título</h4>
+                            <p>Contenido</p>
+                            <p>Descripción del video o posteo programado</p>
+                            <p>8 de mayo 2024</p>
+                            <button class="btn btn-purple">Ver</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="week">
+                    <h3>Semana 2</h3>
+                    <div class="post">
+                        <img src="image.png" alt="Post image">
+                        <div class="details">
+                            <i class="fab fa-instagram"></i>
+                            <h4>Título</h4>
+                            <p>Contenido</p>
+                            <p>Descripción del video o posteo programado</p>
+                            <p>15 de mayo 2024</p>
+                            <button class="btn btn-purple">Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h2>Todos los derechos reservados</h2>
+            <div class="socialmedia-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/app.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
