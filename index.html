@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unir Códigos HTML</title>
+    <title>Mini Calendar Mothership</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,18 +14,23 @@
     <link rel="stylesheet" href="./css/calendar.css">
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
     <div class="container">
         <nav class="navbar">
             <div class="logo-menu">
                 <a href="https://famores.com/wp-content/uploads/2024/04/Logo-Mothership.jpg">
-                    <img src="https://famores.com/wp-content/uploads/2024/04/Logo-Mothership.jpg" alt="Logo de Mothership">
+                    <img src="https://famores.com/wp-content/uploads/2024/04/Logo-Mothership.jpg"
+                        alt="Logo de Mothership" class="mothership-logo">
                 </a>
             </div>
             <ul class="nav-buttons">
-                <li><button type="button" class="btn btn-primary light-purple"><i class="fas fa-bullhorn"></i> Crear Campaña</button></li>
-                <li><button type="button" class="btn btn-primary dark-purple"><i class="fab fa-google"></i> Opiniones de Google</button></li>
-                <li><button type="button" class="btn btn-primary yellow"><i class="fas fa-cog"></i> Configuración</button></li>
+                <li><button type="button" class="btn btn-primary light-purple"><i class="fas fa-bullhorn"></i> Crear
+                        Campaña</button></li>
+                <li><button type="button" class="btn btn-primary dark-purple"><i class="fab fa-google"></i> Opiniones de
+                        Google</button></li>
+                <li><button type="button" class="btn btn-primary yellow"><i class="fas fa-cog"></i>
+                        Configuración</button></li>
             </ul>
         </nav>
 
@@ -32,7 +38,7 @@
             <div class="sidebar">
                 <div class="miniCalendar">
                     <div class="miniCalendar-status">
-                        <time class="miniCalendar-date" datetime="2021-06">Junio 2021</time>
+                        <time class="miniCalendar-date" datetime="2024-06">Junio 2024</time>
                         <div class="miniCalendar-navigation">
                             <a class="button is-compact" href="#prevMonth" aria-label="Mes anterior">
                                 <i class="icon-chevronLeft" aria-hidden="true"></i>
@@ -52,53 +58,176 @@
                         <span class="miniCalendar-weekDay">S</span>
                     </div>
                     <div class="miniCalendar-month">
-                        <!-- Add days here as needed -->
+                        <div class="miniCalendar-monthDay is-inactive">26</div>
+                        <div class="miniCalendar-monthDay is-inactive">27</div>
+                        <div class="miniCalendar-monthDay is-inactive">28</div>
+                        <div class="miniCalendar-monthDay is-inactive">29</div>
+                        <div class="miniCalendar-monthDay is-inactive">30</div>
+                        <div class="miniCalendar-monthDay">1</div>
+                        <div class="miniCalendar-monthDay">2</div>
+                        <div class="miniCalendar-monthDay">3</div>
+                        <div class="miniCalendar-monthDay">4</div>
+                        <div class="miniCalendar-monthDay">5</div>
+                        <div class="miniCalendar-monthDay">6</div>
+                        <div class="miniCalendar-monthDay">7</div>
+                        <div class="miniCalendar-monthDay">8</div>
+                        <div class="miniCalendar-monthDay">9</div>
+                        <div class="miniCalendar-monthDay">10</div>
+                        <div class="miniCalendar-monthDay">11</div>
+                        <div class="miniCalendar-monthDay">12</div>
+                        <div class="miniCalendar-monthDay">13</div>
+                        <div class="miniCalendar-monthDay">14</div>
+                        <div class="miniCalendar-monthDay">15</div>
+                        <div class="miniCalendar-monthDay">16</div>
+                        <div class="miniCalendar-monthDay">17</div>
+                        <div class="miniCalendar-monthDay">18</div>
+                        <div class="miniCalendar-monthDay">19</div>
+                        <div class="miniCalendar-monthDay">20</div>
+                        <div class="miniCalendar-monthDay">21</div>
+                        <div class="miniCalendar-monthDay">22</div>
+                        <div class="miniCalendar-monthDay">23</div>
+                        <div class="miniCalendar-monthDay">24</div>
+                        <div class="miniCalendar-monthDay">25</div>
+                        <div class="miniCalendar-monthDay">26</div>
+                        <div class="miniCalendar-monthDay">27</div>
+                        <div class="miniCalendar-monthDay">28</div>
+                        <div class="miniCalendar-monthDay">29</div>
+                        <div class="miniCalendar-monthDay">30</div>
+                        <div class="miniCalendar-monthDay">1</div>
+                        <div class="miniCalendar-monthDay is-inactive">2</div>
+                        <div class="miniCalendar-monthDay is-inactive">3</div>
+                        <div class="miniCalendar-monthDay is-inactive">4</div>
+                        <div class="miniCalendar-monthDay is-inactive">5</div>
+                        <div class="miniCalendar-monthDay is-inactive">6</div>
                     </div>
                 </div>
+            </div>
+            <div class="weekly-stats-container">
                 <div class="weekly-stats">
                     <h3>Cantidad de publicaciones semanal</h3>
                     <div class="stat">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram" style="color: #E1306C;"></i>
                         <div class="bar">
-                            <div class="progress" style="width: 50%;"></div>
+                            <div class="progress" style="width: 50%; background-color: #8a2be2;"></div>
                         </div>
                         <span>5</span>
                     </div>
                     <div class="stat">
-                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-facebook"
+                            style="color: #1877F2; background-color: white; border-radius: 50%;"></i>
                         <div class="bar">
-                            <div class="progress" style="width: 40%;"></div>
+                            <div class="progress" style="width: 40%; background-color: #1877F2;"></div>
                         </div>
                         <span>4</span>
                     </div>
                 </div>
             </div>
-            <div class="content">
-                <div class="week">
-                    <h3>Semana 1</h3>
-                    <div class="post">
-                        <img src="image.png" alt="Post image">
-                        <div class="details">
-                            <i class="fab fa-instagram"></i>
-                            <h4>Título</h4>
-                            <p>Contenido</p>
-                            <p>Descripción del video o posteo programado</p>
-                            <p>8 de mayo 2024</p>
-                            <button class="btn btn-purple">Ver</button>
+        </div>
+        <div class="content">
+            <div class="weeks">
+                <div class="row">
+                    <div class="col">
+                        <div class="week">
+                            <h3>Semana 1</h3>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="week">
+                            <h3>Semana 3</h3>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="week">
-                    <h3>Semana 2</h3>
-                    <div class="post">
-                        <img src="image.png" alt="Post image">
-                        <div class="details">
-                            <i class="fab fa-instagram"></i>
-                            <h4>Título</h4>
-                            <p>Contenido</p>
-                            <p>Descripción del video o posteo programado</p>
-                            <p>15 de mayo 2024</p>
-                            <button class="btn btn-purple">Ver</button>
+                    <div class="col">
+                        <div class="week">
+                            <h3>Semana 2</h3>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="week">
+                            <h3>Semana 4</h3>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <img src="./Captura de pantalla 2024-05-27 090704.png" alt="Post image">
+                                <div class="details">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4>Título</h4>
+                                    <p>Contenido</p>
+                                    <p>Descripción del video o posteo programado</p>
+                                    <p>8 de mayo 2024</p>
+                                    <button class="btn btn-purple">Ver</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -119,4 +248,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
