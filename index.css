@@ -23,7 +23,7 @@ body {
 }
 
 .logo-menu img {
-    width: 100px;
+    width: 150px; /* Increased width for a bigger logo */
 }
 
 .nav-buttons {
@@ -37,6 +37,8 @@ body {
 
 .main-content {
     display: flex;
+    justify-content: space-between; /* Adjust alignment */
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -53,7 +55,7 @@ body {
     color: #e8eaed;
     padding: 20px;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .miniCalendar .miniCalendar-status {
@@ -116,6 +118,20 @@ body {
     cursor: pointer;
 }
 
+.weekly-stats-container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #3c4043;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 150px; /* Adjust this value to position it near the 'h' key */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center alignment adjustment */
+}
+
 .weekly-stats {
     margin-top: 20px;
 }
@@ -141,15 +157,28 @@ body {
 
 .bar .progress {
     height: 100%;
-    background-color: #ffd700;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .content {
-    padding: 20px;
     flex-grow: 1;
+    padding: 20px;
+    margin-top: 100px; /* Adjusted margin to separate from above elements */
+}
+
+.weeks {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.col {
+    flex: 1;
 }
 
 .week {
